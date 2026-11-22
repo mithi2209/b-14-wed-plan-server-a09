@@ -1,0 +1,35 @@
+{
+  "name": "wed-plan-server",
+  "version": "1.0.0",
+  "description": "WedPlan Server - Wedding Planning & Vendor Management System API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "wedding",
+    "planner",
+    "vendor-management",
+    "express",
+    "mongodb",
+    "stripe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jose": "^5.10.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2",
+    "stripe": "^17.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
